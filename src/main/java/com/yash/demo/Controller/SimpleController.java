@@ -14,7 +14,7 @@ public class SimpleController {
 	public String hello(@RequestParam(value ="name",defaultValue="World",required =true) String name,Model model)
 	{
 		System.out.println("The data is been invoked");
-		String data="HEXAWARE";
+		String data="HEXAWARE !! HAPPY TO JOIN YOU ";
 		
 		model.addAttribute("name",data);
 		
